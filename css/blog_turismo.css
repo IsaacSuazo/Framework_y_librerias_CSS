@@ -1,0 +1,35 @@
+body{
+  background: url(../images/images_turismo/img_fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+@media (max-width:599px){
+  #articulos{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #articulo_1{
+    order: 1;
+    flex-grow: 1;
+  }
+
+  #articulo_2{
+    order: 2;
+    flex-grow: 1;
+  }
+
+  #perfil{
+    order: 4;
+    flex-grow: 1;
+  }
+
+  #comentarios{
+    order: 3;
+    flex-grow: 1;
+  }
+
+}

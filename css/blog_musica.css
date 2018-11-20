@@ -1,0 +1,64 @@
+*{
+  padding: 1px;
+}
+
+body{
+  background: url(../images/images_musica/img_fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+header{
+  background-color: #F8F8FF;
+}
+nav{
+  background-color: #F8F8FF;
+}
+#img_logo{
+  width: 150px;
+  height: 150px;
+}
+
+#redes{
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+
+#redes li{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#articulos{
+  background-color: #DCDCDC;
+}
+
+.img_articulo{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.img_comentario{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+@media (max-width:599px){
+  #buscador{
+    display: none;
+  }
+
+  .img_comentario{
+    display: none;
+  }
+}
+
+#buscador{
+  background-color: #B0E0E6;
+}

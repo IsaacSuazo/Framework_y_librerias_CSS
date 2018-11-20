@@ -1,0 +1,39 @@
+body{
+  background: url(../../../images/images_comida/img_fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+header{
+  background-color:#4fc3f7;
+}
+
+div{
+  padding: 3px;
+}
+
+section{
+  background-color: #b3e5fc;
+}
+
+#menu{
+  background-color:#4fc3f7;
+  border-radius: 5px;
+}
+
+#platos{
+  background: url(../../../images/images_comida/img_fondo2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+  border-radius: 5px;
+}
+
+@media (max-width:599px){
+  #menu{
+    display: none;
+  }
+}
